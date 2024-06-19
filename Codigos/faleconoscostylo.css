@@ -1,0 +1,144 @@
+css
+/* Classes de erro para mensagens dentro das caixas de formulário */
+.error {
+  border: 2px solid red; /* Adiciona uma borda vermelha nos campos com erro */
+}
+
+.right-side .input-box .error-message {
+  color: red; 
+  font-size: 0.7em; 
+  margin-top: 5px; 
+  position: absolute; 
+  bottom: -20px; 
+  left: 5px; 
+  max-width: 100%; 
+  white-space: nowrap; 
+}
+
+/* Classe para quando o formulário for enviado com sucesso */
+.success {
+  background-color: #5cb85c; 
+  transition: background-color 0.5s ease; 
+}
+
+/* Estilo para a mensagem de sucesso */
+.success-message {
+  color: white; 
+  font-size: 0.7em; 
+  margin-top: 5px; 
+  max-width: 100%; 
+  white-space: nowrap; 
+  text-align: center; 
+  padding: 8px 16px; 
+  border-radius: 6px; 
+  background-color: #5cb85c; 
+  transition: background-color 0.5s ease; 
+}
+
+/* Outros estilos existentes permanecem inalterados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Estilos específicos para o formulário */
+main {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.right-side {
+  width: 20%;
+  margin-left: 200px;
+  font-size: 16px;
+  color: #333;
+  max-width: 500px;
+}
+
+.right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #078d2d;
+}
+
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #f0f1f8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.right-side .message-box {
+  min-height: 110px;
+}
+
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+
+.right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.right-side .button input[type="submit"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #078d2d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.right-side .button input[type="submit"]:hover {
+  background: #08cc3f;
+}
+
+.texto {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.contato {
+  margin-top: 15px;
+}
+
+.contato img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.contato a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}
